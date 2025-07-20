@@ -15,18 +15,12 @@ Calculates shipping discounts for Vinted transactions based on defined rules.
 - **rules/small_package.py** - Rule: All small shipments get the lowest small package price discount.  
 - **rules/third_large_lp.py** - Rule: The third large LP shipment each month is free once per month.  
 - **constants.py** - Defines carriers, package sizes, prices, and max monthly discount.  
-- **constants.py** - Unit tests.
+- **test_rules.py** - Unit tests.
 
 ---
 
 ## Usage
 
-Run the program:
+Run the program: ``` python3 main.py```
 
-```bash
-python3 main.py
-
-Run the test:
-
-```bash
-python3 -m unittest discover -s tests
+Run the test: ```python3 -m unittest discover -s tests```
